@@ -1,0 +1,41 @@
+h1 {
+    color:hotpink;
+  margin-left:30px;
+}
+
+.header * {
+    border:solid
+}
+
+.header{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    text-align: center;
+}
+a:link{
+    color: #09dae7;
+}
+a:visited{
+    color:#97f1c6;
+}
